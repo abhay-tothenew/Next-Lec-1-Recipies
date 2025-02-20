@@ -60,8 +60,8 @@ const styles = {
   },
   table: {
     width: "80%",
-    borderCollapse: "collapse" as "collapse",
-    textAlign: "center" as const, // Ensure text is centered
+    borderCollapse: "collapse" as const,
+    textAlign: "center" as const,
     backgroundColor: "#fff",
     borderRadius: "10px",
     overflow: "hidden",
